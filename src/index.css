@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Century Gothic', CenturyGothic, AppleGothic, 'URW Gothic L', sans-serif;
+}
+
+html,
+body {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, 'URW Gothic L', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure all form controls and standard elements use Century Gothic by default */
+button,
+input,
+optgroup,
+select,
+textarea,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+div,
+table {
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, 'URW Gothic L', sans-serif;
+}
+
+/* Keep code and tokens in monospace where intended */
+.font-mono,
+code,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}

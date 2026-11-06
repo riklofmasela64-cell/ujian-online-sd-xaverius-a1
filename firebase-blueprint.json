@@ -1,0 +1,252 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Akun pengguna sistem Xaverius Exam dengan peran admin, guru, siswa, atau pengawas",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "username": { "type": "string", "minLength": 3, "maxLength": 64 },
+        "fullName": { "type": "string", "minLength": 2, "maxLength": 128 },
+        "email": { "type": "string", "maxLength": 128 },
+        "role": { "type": "string", "enum": ["admin", "guru", "siswa", "pengawas"] },
+        "status": { "type": "string", "enum": ["active", "inactive", "suspended"] },
+        "passwordHash": { "type": "string", "maxLength": 255 },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["uid", "username", "fullName", "role", "status"]
+    },
+    "Student": {
+      "title": "Student",
+      "description": "Data master siswa SD Xaverius A1 Ambon",
+      "type": "object",
+      "properties": {
+        "studentId": { "type": "string", "maxLength": 64 },
+        "nis": { "type": "string", "minLength": 3, "maxLength": 32 },
+        "nisn": { "type": "string", "minLength": 5, "maxLength": 32 },
+        "fullName": { "type": "string", "minLength": 2, "maxLength": 128 },
+        "gender": { "type": "string", "enum": ["L", "P"] },
+        "classId": { "type": "string", "maxLength": 64 },
+        "academicYear": { "type": "string", "maxLength": 32 },
+        "status": { "type": "string", "enum": ["active", "inactive"] }
+      },
+      "required": ["studentId", "nis", "fullName", "gender", "classId", "academicYear", "status"]
+    },
+    "Teacher": {
+      "title": "Teacher",
+      "description": "Data master guru SD Xaverius A1 Ambon",
+      "type": "object",
+      "properties": {
+        "teacherId": { "type": "string", "maxLength": 64 },
+        "fullName": { "type": "string", "minLength": 2, "maxLength": 128 },
+        "nip": { "type": "string", "maxLength": 32 },
+        "email": { "type": "string", "maxLength": 128 },
+        "status": { "type": "string", "enum": ["active", "inactive"] }
+      },
+      "required": ["teacherId", "fullName", "status"]
+    },
+    "Class": {
+      "title": "Class",
+      "description": "Data master rombongan belajar kelas I sampai VI",
+      "type": "object",
+      "properties": {
+        "classId": { "type": "string", "maxLength": 64 },
+        "className": { "type": "string", "maxLength": 32 },
+        "grade": { "type": "string", "enum": ["I", "II", "III", "IV", "V", "VI", "1", "2", "3", "4", "5", "6"] },
+        "academicYear": { "type": "string", "maxLength": 32 },
+        "homeroomTeacherId": { "type": "string", "maxLength": 64 },
+        "studentCount": { "type": "number" }
+      },
+      "required": ["classId", "className", "grade", "academicYear"]
+    },
+    "Subject": {
+      "title": "Subject",
+      "description": "Data master mata pelajaran SD Xaverius A1 Ambon",
+      "type": "object",
+      "properties": {
+        "subjectId": { "type": "string", "maxLength": 64 },
+        "subjectName": { "type": "string", "maxLength": 128 },
+        "subjectCode": { "type": "string", "maxLength": 32 },
+        "status": { "type": "string", "enum": ["active", "inactive"] }
+      },
+      "required": ["subjectId", "subjectName", "subjectCode", "status"]
+    },
+    "SchoolSettings": {
+      "title": "SchoolSettings",
+      "description": "Pengaturan informasi sekolah SD Xaverius A1 Ambon",
+      "type": "object",
+      "properties": {
+        "schoolName": { "type": "string", "maxLength": 128 },
+        "schoolAddress": { "type": "string", "maxLength": 255 },
+        "schoolLogo": { "type": "string" },
+        "academicYear": { "type": "string", "maxLength": 32 },
+        "semester": { "type": "string", "enum": ["Ganjil", "Genap"] },
+        "contactInformation": { "type": "string", "maxLength": 255 }
+      },
+      "required": ["schoolName", "academicYear", "semester"]
+    },
+    "QuestionBank": {
+      "title": "QuestionBank",
+      "description": "Koleksi butir soal pada bank soal",
+      "type": "object",
+      "properties": {
+        "questionId": { "type": "string", "maxLength": 64 },
+        "teacherId": { "type": "string", "maxLength": 64 },
+        "subjectId": { "type": "string", "maxLength": 64 },
+        "classId": { "type": "string", "maxLength": 64 },
+        "questionType": { "type": "string", "enum": ["multiple_choice", "complex_mc", "matching", "true_false", "essay"] },
+        "questionText": { "type": "string" },
+        "weight": { "type": "number" },
+        "difficulty": { "type": "string", "enum": ["easy", "medium", "hard"] },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["questionId", "subjectId", "questionType", "questionText", "weight"]
+    },
+    "Exam": {
+      "title": "Exam",
+      "description": "Jadwal dan konfigurasi ujian CBT",
+      "type": "object",
+      "properties": {
+        "examId": { "type": "string", "maxLength": 64 },
+        "examName": { "type": "string", "maxLength": 128 },
+        "subjectId": { "type": "string", "maxLength": 64 },
+        "startTime": { "type": "string" },
+        "endTime": { "type": "string" },
+        "duration": { "type": "number" },
+        "totalWeight": { "type": "number" },
+        "status": { "type": "string", "enum": ["draft", "published", "active", "completed", "archived"] },
+        "createdBy": { "type": "string", "maxLength": 64 },
+        "token": { "type": "string", "maxLength": 16 }
+      },
+      "required": ["examId", "examName", "subjectId", "duration", "status"]
+    },
+    "ExamSession": {
+      "title": "ExamSession",
+      "description": "Sesi pengerjaan ujian oleh peserta siswa",
+      "type": "object",
+      "properties": {
+        "sessionId": { "type": "string", "maxLength": 64 },
+        "examId": { "type": "string", "maxLength": 64 },
+        "studentId": { "type": "string", "maxLength": 64 },
+        "startedAt": { "type": "string" },
+        "submittedAt": { "type": "string" },
+        "status": { "type": "string", "enum": ["in_progress", "submitted", "timed_out", "blocked"] }
+      },
+      "required": ["sessionId", "examId", "studentId", "status"]
+    },
+    "Answer": {
+      "title": "Answer",
+      "description": "Jawaban peserta per nomor soal",
+      "type": "object",
+      "properties": {
+        "answerId": { "type": "string", "maxLength": 64 },
+        "sessionId": { "type": "string", "maxLength": 64 },
+        "questionId": { "type": "string", "maxLength": 64 },
+        "savedAt": { "type": "string" }
+      },
+      "required": ["answerId", "sessionId", "questionId"]
+    },
+    "ExamLog": {
+      "title": "ExamLog",
+      "description": "Log aktivitas pengawasan ujian (tab switch, blur, reconnect, freeze)",
+      "type": "object",
+      "properties": {
+        "logId": { "type": "string", "maxLength": 64 },
+        "sessionId": { "type": "string", "maxLength": 64 },
+        "studentId": { "type": "string", "maxLength": 64 },
+        "eventType": { "type": "string", "maxLength": 64 },
+        "timestamp": { "type": "string" },
+        "details": { "type": "string" }
+      },
+      "required": ["logId", "sessionId", "studentId", "eventType", "timestamp"]
+    },
+    "Result": {
+      "title": "Result",
+      "description": "Hasil dan nilai ujian siswa",
+      "type": "object",
+      "properties": {
+        "resultId": { "type": "string", "maxLength": 64 },
+        "sessionId": { "type": "string", "maxLength": 64 },
+        "studentId": { "type": "string", "maxLength": 64 },
+        "totalScore": { "type": "number" },
+        "maximumScore": { "type": "number" },
+        "finalScore": { "type": "number" },
+        "gradingStatus": { "type": "string", "enum": ["graded", "partial", "pending"] },
+        "gradedAt": { "type": "string" }
+      },
+      "required": ["resultId", "sessionId", "studentId", "finalScore", "gradingStatus"]
+    },
+    "AuditLog": {
+      "title": "AuditLog",
+      "description": "Catatan log audit sistem untuk keamanan dan kepatuhan",
+      "type": "object",
+      "properties": {
+        "logId": { "type": "string", "maxLength": 64 },
+        "actorId": { "type": "string", "maxLength": 64 },
+        "actorName": { "type": "string", "maxLength": 128 },
+        "actorRole": { "type": "string", "maxLength": 32 },
+        "action": { "type": "string", "maxLength": 64 },
+        "target": { "type": "string", "maxLength": 128 },
+        "details": { "type": "string" },
+        "timestamp": { "type": "string" }
+      },
+      "required": ["logId", "actorId", "actorName", "actorRole", "action", "timestamp"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": "User",
+      "description": "Koleksi akun pengguna dengan profil dan hak akses"
+    },
+    "/students/{studentId}": {
+      "schema": "Student",
+      "description": "Koleksi data master siswa SD Xaverius A1 Ambon"
+    },
+    "/teachers/{teacherId}": {
+      "schema": "Teacher",
+      "description": "Koleksi data master guru"
+    },
+    "/classes/{classId}": {
+      "schema": "Class",
+      "description": "Koleksi data master kelas"
+    },
+    "/subjects/{subjectId}": {
+      "schema": "Subject",
+      "description": "Koleksi data master mata pelajaran"
+    },
+    "/schoolSettings/{settingId}": {
+      "schema": "SchoolSettings",
+      "description": "Koleksi konfigurasi identitas sekolah dan kalender akademik"
+    },
+    "/questionBanks/{questionId}": {
+      "schema": "QuestionBank",
+      "description": "Koleksi butir soal bank soal"
+    },
+    "/exams/{examId}": {
+      "schema": "Exam",
+      "description": "Koleksi jadwal dan paket ujian"
+    },
+    "/examSessions/{sessionId}": {
+      "schema": "ExamSession",
+      "description": "Koleksi sesi ujian peserta"
+    },
+    "/answers/{answerId}": {
+      "schema": "Answer",
+      "description": "Koleksi respon jawaban siswa"
+    },
+    "/examLogs/{logId}": {
+      "schema": "ExamLog",
+      "description": "Koleksi catatan aktivitas proctoring selama ujian"
+    },
+    "/results/{resultId}": {
+      "schema": "Result",
+      "description": "Koleksi nilai hasil akhir ujian siswa"
+    },
+    "/auditLogs/{logId}": {
+      "schema": "AuditLog",
+      "description": "Koleksi catatan audit log perubahan sistem"
+    }
+  }
+}

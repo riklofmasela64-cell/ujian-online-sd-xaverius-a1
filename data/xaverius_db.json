@@ -1,0 +1,2722 @@
+{
+  "users": [
+    {
+      "uid": "usr_admin_1",
+      "username": "admin",
+      "fullName": "Administrator Utama (SD Xaverius A1)",
+      "email": "richomasela16@gmail.com",
+      "role": "admin",
+      "status": "active",
+      "passwordHash": "$2b$10$YYexDV3DfLQ/o4GAXfWdU.m2Gh9GQrlcrdkLIIW3L86N0XgQMwiGC",
+      "createdAt": "2026-11-04T05:16:39.156Z",
+      "updatedAt": "2026-11-04T05:16:39.156Z"
+    },
+    {
+      "uid": "usr_guru_starter",
+      "username": "guru",
+      "fullName": "Dra. Maria Regina, S.Pd. (Dewan Guru)",
+      "email": "guru@xaverius-ambon.sch.id",
+      "role": "guru",
+      "status": "active",
+      "passwordHash": "$2b$10$j6GvzK6fSZuIyeGV2p4bbOTWkn/FLYcbL/r1jH16yYLqJbfFcdQLa",
+      "createdAt": "2026-11-04T23:01:02.501Z",
+      "updatedAt": "2026-11-04T23:01:02.501Z"
+    },
+    {
+      "uid": "usr_pengawas_starter",
+      "username": "pengawas",
+      "fullName": "Yohanes Lerebulan, S.Pd. (Pengawas Ruang)",
+      "email": "pengawas@xaverius-ambon.sch.id",
+      "role": "pengawas",
+      "status": "active",
+      "passwordHash": "$2b$10$vFP.acJjJUtiy2KU3SwwbO8tqsJJQ73l..M/AVLERRW6z/H0ay4cq",
+      "createdAt": "2026-11-04T23:01:02.596Z",
+      "updatedAt": "2026-11-04T23:01:02.596Z"
+    },
+    {
+      "uid": "usr_siswa_starter",
+      "username": "siswa",
+      "fullName": "Michael Fransisco de Lima (Kelas 6A)",
+      "email": "michael.delima@student.xaverius-ambon.sch.id",
+      "role": "siswa",
+      "status": "active",
+      "passwordHash": "$2b$10$1F526AEFQMvTCxwARfXO1uzqUE39YqvMtkXniE7eKgDU0Wc6i6adu",
+      "createdAt": "2026-11-04T23:01:02.692Z",
+      "updatedAt": "2026-11-04T23:01:02.692Z"
+    }
+  ],
+  "students": [
+    {
+      "studentId": "std_1a_1",
+      "nis": "24250101",
+      "nisn": "0187654321",
+      "fullName": "Samuel Ferdinand Tahalele",
+      "gender": "L",
+      "classId": "cls_1a",
+      "className": "Kelas I-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_1a_2",
+      "nis": "24250102",
+      "nisn": "0187654322",
+      "fullName": "Clarissa Aurelia Manuhutu",
+      "gender": "P",
+      "classId": "cls_1a",
+      "className": "Kelas I-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_1a_3",
+      "nis": "24250103",
+      "nisn": "0187654323",
+      "fullName": "Bryan Rafael Latuheru",
+      "gender": "L",
+      "classId": "cls_1a",
+      "className": "Kelas I-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_1a_4",
+      "nis": "24250104",
+      "nisn": "0187654324",
+      "fullName": "Grace Natalia Pattiasina",
+      "gender": "P",
+      "classId": "cls_1a",
+      "className": "Kelas I-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_1b_1",
+      "nis": "24250105",
+      "nisn": "0187654325",
+      "fullName": "Christian Immanuel Huwae",
+      "gender": "L",
+      "classId": "cls_1b",
+      "className": "Kelas I-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_1b_2",
+      "nis": "24250106",
+      "nisn": "0187654326",
+      "fullName": "Angelique Priscillia Tupamahu",
+      "gender": "P",
+      "classId": "cls_1b",
+      "className": "Kelas I-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_1b_3",
+      "nis": "24250107",
+      "nisn": "0187654327",
+      "fullName": "Kevin Jonathan Wattimena",
+      "gender": "L",
+      "classId": "cls_1b",
+      "className": "Kelas I-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_1b_4",
+      "nis": "24250108",
+      "nisn": "0187654328",
+      "fullName": "Felicia Putri Siahaya",
+      "gender": "P",
+      "classId": "cls_1b",
+      "className": "Kelas I-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_2a_1",
+      "nis": "23240201",
+      "nisn": "0177654321",
+      "fullName": "Andreas Bintang de Fretes",
+      "gender": "L",
+      "classId": "cls_2a",
+      "className": "Kelas II-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_2a_2",
+      "nis": "23240202",
+      "nisn": "0177654322",
+      "fullName": "Stephanie Michelle Silooy",
+      "gender": "P",
+      "classId": "cls_2a",
+      "className": "Kelas II-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_2a_3",
+      "nis": "23240203",
+      "nisn": "0177654323",
+      "fullName": "Matthew Nicholas Pariela",
+      "gender": "L",
+      "classId": "cls_2a",
+      "className": "Kelas II-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_2a_4",
+      "nis": "23240204",
+      "nisn": "0177654324",
+      "fullName": "Jessica Florencia Matitaputty",
+      "gender": "P",
+      "classId": "cls_2a",
+      "className": "Kelas II-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_2b_1",
+      "nis": "23240205",
+      "nisn": "0177654325",
+      "fullName": "Gabriel Joseph Leatemia",
+      "gender": "L",
+      "classId": "cls_2b",
+      "className": "Kelas II-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_2b_2",
+      "nis": "23240206",
+      "nisn": "0177654326",
+      "fullName": "Michelle Amanda Louhenapessy",
+      "gender": "P",
+      "classId": "cls_2b",
+      "className": "Kelas II-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_2b_3",
+      "nis": "23240207",
+      "nisn": "0177654327",
+      "fullName": "Jeremy Alexander Sahertian",
+      "gender": "L",
+      "classId": "cls_2b",
+      "className": "Kelas II-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_2b_4",
+      "nis": "23240208",
+      "nisn": "0177654328",
+      "fullName": "Vanessa Caroline Hitipeuw",
+      "gender": "P",
+      "classId": "cls_2b",
+      "className": "Kelas II-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_3a_1",
+      "nis": "22230301",
+      "nisn": "0167654321",
+      "fullName": "Nathanael Richard Maruanaya",
+      "gender": "L",
+      "classId": "cls_3a",
+      "className": "Kelas III-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_3a_2",
+      "nis": "22230302",
+      "nisn": "0167654322",
+      "fullName": "Catherine Beatrice Lawalata",
+      "gender": "P",
+      "classId": "cls_3a",
+      "className": "Kelas III-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_3a_3",
+      "nis": "22230303",
+      "nisn": "0167654323",
+      "fullName": "Christian Geraldo Pelupessy",
+      "gender": "L",
+      "classId": "cls_3a",
+      "className": "Kelas III-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_3a_4",
+      "nis": "22230304",
+      "nisn": "0167654324",
+      "fullName": "Olivia Grace Pentury",
+      "gender": "P",
+      "classId": "cls_3a",
+      "className": "Kelas III-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_3b_1",
+      "nis": "22230305",
+      "nisn": "0167654325",
+      "fullName": "Samuel Christian Mailoa",
+      "gender": "L",
+      "classId": "cls_3b",
+      "className": "Kelas III-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_3b_2",
+      "nis": "22230306",
+      "nisn": "0167654326",
+      "fullName": "Gabriella Maria Sohilait",
+      "gender": "P",
+      "classId": "cls_3b",
+      "className": "Kelas III-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_3b_3",
+      "nis": "22230307",
+      "nisn": "0167654327",
+      "fullName": "Timothy Andrew Tehupeiory",
+      "gender": "L",
+      "classId": "cls_3b",
+      "className": "Kelas III-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_3b_4",
+      "nis": "22230308",
+      "nisn": "0167654328",
+      "fullName": "Patricia Angeline Risambessy",
+      "gender": "P",
+      "classId": "cls_3b",
+      "className": "Kelas III-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_4a_1",
+      "nis": "21220401",
+      "nisn": "0157654321",
+      "fullName": "Yohanes Gabriel Renyaan",
+      "gender": "L",
+      "classId": "cls_4a",
+      "className": "Kelas IV-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_4a_2",
+      "nis": "21220402",
+      "nisn": "0157654322",
+      "fullName": "Maria Christina Latuconsina",
+      "gender": "P",
+      "classId": "cls_4a",
+      "className": "Kelas IV-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_4a_3",
+      "nis": "21220403",
+      "nisn": "0157654323",
+      "fullName": "Michael Christian de Lima",
+      "gender": "L",
+      "classId": "cls_4a",
+      "className": "Kelas IV-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_4a_4",
+      "nis": "21220404",
+      "nisn": "0157654324",
+      "fullName": "Kezia Angelica Wattimena",
+      "gender": "P",
+      "classId": "cls_4a",
+      "className": "Kelas IV-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_4b_1",
+      "nis": "21220405",
+      "nisn": "0157654325",
+      "fullName": "Rafael Bintang Matitaputty",
+      "gender": "L",
+      "classId": "cls_4b",
+      "className": "Kelas IV-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_4b_2",
+      "nis": "21220406",
+      "nisn": "0157654326",
+      "fullName": "Theresia Aurelia Louhenapessy",
+      "gender": "P",
+      "classId": "cls_4b",
+      "className": "Kelas IV-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_4b_3",
+      "nis": "21220407",
+      "nisn": "0157654327",
+      "fullName": "Fransiskus Xaverius Tupamahu",
+      "gender": "L",
+      "classId": "cls_4b",
+      "className": "Kelas IV-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_4b_4",
+      "nis": "21220408",
+      "nisn": "0157654328",
+      "fullName": "Angela Merici Pattiradjawane",
+      "gender": "P",
+      "classId": "cls_4b",
+      "className": "Kelas IV-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_5a_1",
+      "nis": "20210501",
+      "nisn": "0147654321",
+      "fullName": "Christian Alexander Siahaya",
+      "gender": "L",
+      "classId": "cls_5a",
+      "className": "Kelas V-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_5a_2",
+      "nis": "20210502",
+      "nisn": "0147654322",
+      "fullName": "Elisabeth Gabriella Pariela",
+      "gender": "P",
+      "classId": "cls_5a",
+      "className": "Kelas V-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_5a_3",
+      "nis": "20210503",
+      "nisn": "0147654323",
+      "fullName": "Nicholas Bryan Huwae",
+      "gender": "L",
+      "classId": "cls_5a",
+      "className": "Kelas V-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_5a_4",
+      "nis": "20210504",
+      "nisn": "0147654324",
+      "fullName": "Jessica Michelle Tahalele",
+      "gender": "P",
+      "classId": "cls_5a",
+      "className": "Kelas V-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_5b_1",
+      "nis": "20210505",
+      "nisn": "0147654325",
+      "fullName": "Gabriel Richard Gaspersz",
+      "gender": "L",
+      "classId": "cls_5b",
+      "className": "Kelas V-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_5b_2",
+      "nis": "20210506",
+      "nisn": "0147654326",
+      "fullName": "Stephanie Priscillia Noya",
+      "gender": "P",
+      "classId": "cls_5b",
+      "className": "Kelas V-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_5b_3",
+      "nis": "20210507",
+      "nisn": "0147654327",
+      "fullName": "Matthew Ferdinand Pelupessy",
+      "gender": "L",
+      "classId": "cls_5b",
+      "className": "Kelas V-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_5b_4",
+      "nis": "20210508",
+      "nisn": "0147654328",
+      "fullName": "Vanessa Beatrice Soukotta",
+      "gender": "P",
+      "classId": "cls_5b",
+      "className": "Kelas V-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "usr_siswa_starter",
+      "nis": "19200601",
+      "nisn": "0137654321",
+      "fullName": "Michael Fransisco de Lima",
+      "gender": "L",
+      "classId": "cls_6a",
+      "className": "Kelas VI-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6a_2",
+      "nis": "19200602",
+      "nisn": "0137654322",
+      "fullName": "Maria Theresia Renyaan",
+      "gender": "P",
+      "classId": "cls_6a",
+      "className": "Kelas VI-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6a_3",
+      "nis": "19200603",
+      "nisn": "0137654323",
+      "fullName": "Yohanes Baptista Latuconsina",
+      "gender": "L",
+      "classId": "cls_6a",
+      "className": "Kelas VI-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6a_4",
+      "nis": "19200604",
+      "nisn": "0137654324",
+      "fullName": "Kezia Gabriella Wattimena",
+      "gender": "P",
+      "classId": "cls_6a",
+      "className": "Kelas VI-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6a_5",
+      "nis": "19200605",
+      "nisn": "0137654325",
+      "fullName": "Gabriel Alexander Silooy",
+      "gender": "L",
+      "classId": "cls_6a",
+      "className": "Kelas VI-A",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6b_1",
+      "nis": "19200606",
+      "nisn": "0137654326",
+      "fullName": "Daniel Christopher Pattiasina",
+      "gender": "L",
+      "classId": "cls_6b",
+      "className": "Kelas VI-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6b_2",
+      "nis": "19200607",
+      "nisn": "0137654327",
+      "fullName": "Michelle Aurelia de Fretes",
+      "gender": "P",
+      "classId": "cls_6b",
+      "className": "Kelas VI-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6b_3",
+      "nis": "19200608",
+      "nisn": "0137654328",
+      "fullName": "Christian Bintang Lawalata",
+      "gender": "L",
+      "classId": "cls_6b",
+      "className": "Kelas VI-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6b_4",
+      "nis": "19200609",
+      "nisn": "0137654329",
+      "fullName": "Angelique Caroline Hitipeuw",
+      "gender": "P",
+      "classId": "cls_6b",
+      "className": "Kelas VI-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    },
+    {
+      "studentId": "std_6b_5",
+      "nis": "19200610",
+      "nisn": "0137654330",
+      "fullName": "Rafael Nicholas Maruanaya",
+      "gender": "L",
+      "classId": "cls_6b",
+      "className": "Kelas VI-B",
+      "academicYear": "2024/2025",
+      "status": "active"
+    }
+  ],
+  "teachers": [],
+  "classes": [
+    {
+      "classId": "cls_1a",
+      "className": "Kelas I-A",
+      "grade": "I",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_1a",
+      "homeroomTeacherName": "Yohana Fransiska, S.Pd.",
+      "studentCount": 28
+    },
+    {
+      "classId": "cls_1b",
+      "className": "Kelas I-B",
+      "grade": "I",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_1b",
+      "homeroomTeacherName": "Theresia Latuheru, S.Pd.",
+      "studentCount": 27
+    },
+    {
+      "classId": "cls_2a",
+      "className": "Kelas II-A",
+      "grade": "II",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_2a",
+      "homeroomTeacherName": "Maria Renyaan, S.Pd.",
+      "studentCount": 28
+    },
+    {
+      "classId": "cls_3a",
+      "className": "Kelas III-A",
+      "grade": "III",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_3a",
+      "homeroomTeacherName": "Christina Pattiasina, S.Pd.",
+      "studentCount": 29
+    },
+    {
+      "classId": "cls_4a",
+      "className": "Kelas IV-A",
+      "grade": "IV",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_4a",
+      "homeroomTeacherName": "Kezia Wattimena, S.Pd.",
+      "studentCount": 30
+    },
+    {
+      "classId": "cls_5a",
+      "className": "Kelas V-A",
+      "grade": "V",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_5a",
+      "homeroomTeacherName": "Elisabeth Manuhutu, S.Pd.",
+      "studentCount": 28
+    },
+    {
+      "classId": "cls_6a",
+      "className": "Kelas VI-A",
+      "grade": "VI",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_6a",
+      "homeroomTeacherName": "Angela Merici Louhenapessy, S.Pd.",
+      "studentCount": 30
+    },
+    {
+      "classId": "cls_2b",
+      "className": "Kelas II-B",
+      "grade": "II",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_2b",
+      "homeroomTeacherName": "Andreas Silooy, S.Pd.",
+      "studentCount": 26
+    },
+    {
+      "classId": "cls_3b",
+      "className": "Kelas III-B",
+      "grade": "III",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_3b",
+      "homeroomTeacherName": "Gabriel Tupamahu, S.Pd.",
+      "studentCount": 28
+    },
+    {
+      "classId": "cls_4b",
+      "className": "Kelas IV-B",
+      "grade": "IV",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_4b",
+      "homeroomTeacherName": "Michael de Fretes, S.Pd.",
+      "studentCount": 29
+    },
+    {
+      "classId": "cls_5b",
+      "className": "Kelas V-B",
+      "grade": "V",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_5b",
+      "homeroomTeacherName": "Yohanes Latuconsina, S.Pd.",
+      "studentCount": 28
+    },
+    {
+      "classId": "cls_6b",
+      "className": "Kelas VI-B",
+      "grade": "VI",
+      "academicYear": "2024/2025",
+      "homeroomTeacherId": "tch_6b",
+      "homeroomTeacherName": "Fransiskus Xaverius Sahertian, S.Pd.",
+      "studentCount": 29
+    }
+  ],
+  "subjects": [
+    {
+      "subjectId": "sbj_pak",
+      "subjectName": "Pendidikan Agama Katolik & Budi Pekerti",
+      "subjectCode": "PAK-01",
+      "gradeLevels": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "status": "active"
+    },
+    {
+      "subjectId": "sbj_bin",
+      "subjectName": "Bahasa Indonesia",
+      "subjectCode": "BIN-02",
+      "gradeLevels": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "status": "active"
+    },
+    {
+      "subjectId": "sbj_mat",
+      "subjectName": "Matematika",
+      "subjectCode": "MAT-03",
+      "gradeLevels": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "status": "active"
+    },
+    {
+      "subjectId": "sbj_ipas",
+      "subjectName": "Ilmu Pengetahuan Alam & Sosial (IPAS)",
+      "subjectCode": "IPA-04",
+      "gradeLevels": [
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "status": "active"
+    },
+    {
+      "subjectId": "sbj_ppkn",
+      "subjectName": "Pendidikan Pancasila & Kewarganegaraan",
+      "subjectCode": "PPKN-05",
+      "gradeLevels": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "status": "active"
+    },
+    {
+      "subjectId": "sbj_bing",
+      "subjectName": "Bahasa Inggris",
+      "subjectCode": "ENG-06",
+      "gradeLevels": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "status": "active"
+    }
+  ],
+  "schoolSettings": {
+    "schoolName": "SD XAVERIUS A1 AMBON",
+    "schoolAddress": "Jl. Pattimura No. 1, Kota Ambon, Maluku",
+    "schoolLogo": "",
+    "academicYear": "2024/2025",
+    "semester": "Ganjil",
+    "contactInformation": "Telp: (0911) 352421 | Email: sdxaveriusa1ambon@gmail.com",
+    "headmasterName": "Dra. Maria Regina, S.Pd.",
+    "headmasterNip": "197003151995122001"
+  },
+  "questionBanks": [
+    {
+      "questionId": "q_ipas_1",
+      "subjectId": "sbj_ipas",
+      "gradeLevels": [
+        "V",
+        "VI"
+      ],
+      "questionType": "multiple_choice",
+      "questionText": "Bagian tumbuhan yang berfungsi utama sebagai tempat terjadinya proses fotosintesis dengan bantuan klorofil dan cahaya matahari adalah...",
+      "options": [
+        {
+          "id": "opt_1",
+          "text": "Akar",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_2",
+          "text": "Daun",
+          "isCorrect": true
+        },
+        {
+          "id": "opt_3",
+          "text": "Batang",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_4",
+          "text": "Bunga",
+          "isCorrect": false
+        }
+      ],
+      "answerKey": "opt_2",
+      "weight": 20,
+      "difficulty": "easy",
+      "createdAt": "2026-11-04T23:10:36.676Z"
+    },
+    {
+      "questionId": "q_ipas_2",
+      "subjectId": "sbj_ipas",
+      "gradeLevels": [
+        "V",
+        "VI"
+      ],
+      "questionType": "true_false",
+      "questionText": "Bunglon dapat mengubah warna kulitnya sesuai dengan lingkungan sekitarnya (kamuflase) untuk mengelabui musuh dan mempertahankan diri.",
+      "answerKey": "true",
+      "weight": 20,
+      "difficulty": "easy",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_ipas_3",
+      "subjectId": "sbj_ipas",
+      "gradeLevels": [
+        "V",
+        "VI"
+      ],
+      "questionType": "matching",
+      "questionText": "Jodohkan bentuk adaptasi morfologi hewan berikut dengan fungsinya yang paling tepat!",
+      "matchingPairs": [
+        {
+          "id": "m1",
+          "premise": "Selaput pada kaki bebek",
+          "response": "Memudahkan berenang di air dan tidak tenggelam di lumpur"
+        },
+        {
+          "id": "m2",
+          "premise": "Paruh tajam dan melengkung pada burung elang",
+          "response": "Merobek dan mengoyak daging mangsa"
+        },
+        {
+          "id": "m3",
+          "premise": "Punuk pada unta",
+          "response": "Menyimpan cadangan lemak sebagai sumber energi di gurun"
+        }
+      ],
+      "answerKey": "m1,m2,m3",
+      "weight": 20,
+      "difficulty": "medium",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_ipas_4",
+      "subjectId": "sbj_ipas",
+      "gradeLevels": [
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "questionType": "multiple_choice_complex",
+      "questionText": "Pilihlah sumber-sumber energi terbarukan yang ramah lingkungan dan tidak pernah habis!",
+      "options": [
+        {
+          "id": "mc_1",
+          "text": "Energi Cahaya Matahari (Surya)",
+          "isCorrect": true
+        },
+        {
+          "id": "mc_2",
+          "text": "Minyak Bumi dan Bensin",
+          "isCorrect": false
+        },
+        {
+          "id": "mc_3",
+          "text": "Energi Tenaga Angin",
+          "isCorrect": true
+        },
+        {
+          "id": "mc_4",
+          "text": "Batubara",
+          "isCorrect": false
+        }
+      ],
+      "answerKey": "mc_1,mc_3",
+      "weight": 20,
+      "difficulty": "medium",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_ipas_5",
+      "subjectId": "sbj_ipas",
+      "gradeLevels": [
+        "V",
+        "VI"
+      ],
+      "questionType": "essay",
+      "questionText": "Jelaskan mengapa rantai makanan di hutan sangat penting bagi keseimbangan ekosistem dan kelangsungan hidup makhluk hidup!",
+      "answerKey": "keseimbangan ekosistem, produsen, konsumen, pengurai",
+      "weight": 20,
+      "difficulty": "hard",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_mat_1",
+      "subjectId": "sbj_mat",
+      "gradeLevels": [
+        "I",
+        "II",
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "questionType": "multiple_choice",
+      "questionText": "Hasil perhitungan dari 348 + 275 adalah...",
+      "options": [
+        {
+          "id": "opt_m1",
+          "text": "613",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_m2",
+          "text": "623",
+          "isCorrect": true
+        },
+        {
+          "id": "opt_m3",
+          "text": "633",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_m4",
+          "text": "523",
+          "isCorrect": false
+        }
+      ],
+      "answerKey": "opt_m2",
+      "weight": 35,
+      "difficulty": "easy",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_mat_2",
+      "subjectId": "sbj_mat",
+      "gradeLevels": [
+        "IV",
+        "V",
+        "VI"
+      ],
+      "questionType": "multiple_choice",
+      "questionText": "Sebuah persegi memiliki panjang sisi 15 cm. Berapakah keliling persegi tersebut?",
+      "options": [
+        {
+          "id": "opt_m5",
+          "text": "30 cm",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_m6",
+          "text": "45 cm",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_m7",
+          "text": "60 cm",
+          "isCorrect": true
+        },
+        {
+          "id": "opt_m8",
+          "text": "225 cm",
+          "isCorrect": false
+        }
+      ],
+      "answerKey": "opt_m7",
+      "weight": 35,
+      "difficulty": "medium",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_mat_3",
+      "subjectId": "sbj_mat",
+      "gradeLevels": [
+        "IV",
+        "V",
+        "VI"
+      ],
+      "questionType": "true_false",
+      "questionText": "Angka 2 adalah satu-satunya bilangan genap yang juga merupakan bilangan prima.",
+      "answerKey": "true",
+      "weight": 30,
+      "difficulty": "easy",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_pak_1",
+      "subjectId": "sbj_pak",
+      "gradeLevels": [
+        "I",
+        "II",
+        "III"
+      ],
+      "questionType": "multiple_choice",
+      "questionText": "Tuhan menciptakan alam semesta dan seluruh isinya sebagai wujud cinta kasih-Nya kepada manusia. Sikap yang benar untuk mensyukuri ciptaan Tuhan adalah...",
+      "options": [
+        {
+          "id": "opt_p1",
+          "text": "Merawat tanaman dan membuang sampah pada tempatnya",
+          "isCorrect": true
+        },
+        {
+          "id": "opt_p2",
+          "text": "Memetik bunga sembarangan di taman sekolah",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_p3",
+          "text": "Menyakiti hewan peliharaan di rumah",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_p4",
+          "text": "Membiarkan lingkungan kotor dan berantakan",
+          "isCorrect": false
+        }
+      ],
+      "answerKey": "opt_p1",
+      "weight": 50,
+      "difficulty": "easy",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_pak_2",
+      "subjectId": "sbj_pak",
+      "gradeLevels": [
+        "I",
+        "II",
+        "III"
+      ],
+      "questionType": "true_false",
+      "questionText": "Doa \"Bapa Kami\" adalah doa agung yang diajarkan langsung oleh Yesus Kristus kepada murid-murid-Nya.",
+      "answerKey": "true",
+      "weight": 50,
+      "difficulty": "easy",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_bin_1",
+      "subjectId": "sbj_bin",
+      "gradeLevels": [
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "questionType": "multiple_choice",
+      "questionText": "Kalimat yang memuat gagasan atau ide pokok utama dalam sebuah paragraf disebut kalimat...",
+      "options": [
+        {
+          "id": "opt_b1",
+          "text": "Penjelas",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_b2",
+          "text": "Utama",
+          "isCorrect": true
+        },
+        {
+          "id": "opt_b3",
+          "text": "Penutup",
+          "isCorrect": false
+        },
+        {
+          "id": "opt_b4",
+          "text": "Tanya",
+          "isCorrect": false
+        }
+      ],
+      "answerKey": "opt_b2",
+      "weight": 50,
+      "difficulty": "easy",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    },
+    {
+      "questionId": "q_bin_2",
+      "subjectId": "sbj_bin",
+      "gradeLevels": [
+        "III",
+        "IV",
+        "V",
+        "VI"
+      ],
+      "questionType": "true_false",
+      "questionText": "Tanda baca titik dua (:) digunakan pada akhir suatu pernyataan lengkap yang diikuti oleh rincian atau penjelasan.",
+      "answerKey": "true",
+      "weight": 50,
+      "difficulty": "easy",
+      "createdAt": "2026-11-04T23:10:36.677Z"
+    }
+  ],
+  "exams": [
+    {
+      "examId": "exam_1a_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1A)",
+      "subjectId": "sbj_pak",
+      "subjectName": "Pendidikan Agama Katolik & Budi Pekerti",
+      "classIds": [
+        "cls_1a"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 45,
+      "questionIds": [
+        "q_pak_1",
+        "q_pak_2"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "PAK1A"
+    },
+    {
+      "examId": "exam_1b_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1B)",
+      "subjectId": "sbj_pak",
+      "subjectName": "Pendidikan Agama Katolik & Budi Pekerti",
+      "classIds": [
+        "cls_1b"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 45,
+      "questionIds": [
+        "q_pak_1",
+        "q_pak_2"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "PAK1B"
+    },
+    {
+      "examId": "exam_2a_mat",
+      "examName": "Penilaian Harian Matematika (Kelas 2A)",
+      "subjectId": "sbj_mat",
+      "subjectName": "Matematika",
+      "classIds": [
+        "cls_2a"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 60,
+      "questionIds": [
+        "q_mat_1",
+        "q_mat_2",
+        "q_mat_3"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "MAT2A"
+    },
+    {
+      "examId": "exam_2b_mat",
+      "examName": "Penilaian Harian Matematika (Kelas 2B)",
+      "subjectId": "sbj_mat",
+      "subjectName": "Matematika",
+      "classIds": [
+        "cls_2b"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 60,
+      "questionIds": [
+        "q_mat_1",
+        "q_mat_2",
+        "q_mat_3"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "MAT2B"
+    },
+    {
+      "examId": "exam_3a_ipas",
+      "examName": "Penilaian Tengah Semester - IPAS (Kelas 3A)",
+      "subjectId": "sbj_ipas",
+      "subjectName": "Ilmu Pengetahuan Alam & Sosial (IPAS)",
+      "classIds": [
+        "cls_3a"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 60,
+      "questionIds": [
+        "q_ipas_1",
+        "q_ipas_2",
+        "q_ipas_3",
+        "q_ipas_4",
+        "q_ipas_5"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "IPA3A"
+    },
+    {
+      "examId": "exam_3b_ipas",
+      "examName": "Penilaian Tengah Semester - IPAS (Kelas 3B)",
+      "subjectId": "sbj_ipas",
+      "subjectName": "Ilmu Pengetahuan Alam & Sosial (IPAS)",
+      "classIds": [
+        "cls_3b"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 60,
+      "questionIds": [
+        "q_ipas_1",
+        "q_ipas_2",
+        "q_ipas_3",
+        "q_ipas_4",
+        "q_ipas_5"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "IPA3B"
+    },
+    {
+      "examId": "exam_4a_bin",
+      "examName": "Asesmen Sumatif Semester - Bahasa Indonesia (Kelas 4A)",
+      "subjectId": "sbj_bin",
+      "subjectName": "Bahasa Indonesia",
+      "classIds": [
+        "cls_4a"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 60,
+      "questionIds": [
+        "q_bin_1",
+        "q_bin_2"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "BIN4A"
+    },
+    {
+      "examId": "exam_4b_bin",
+      "examName": "Asesmen Sumatif Semester - Bahasa Indonesia (Kelas 4B)",
+      "subjectId": "sbj_bin",
+      "subjectName": "Bahasa Indonesia",
+      "classIds": [
+        "cls_4b"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 60,
+      "questionIds": [
+        "q_bin_1",
+        "q_bin_2"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "BIN4B"
+    },
+    {
+      "examId": "exam_5a_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5A)",
+      "subjectId": "sbj_mat",
+      "subjectName": "Matematika",
+      "classIds": [
+        "cls_5a"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 90,
+      "questionIds": [
+        "q_mat_1",
+        "q_mat_2",
+        "q_mat_3"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "MAT5A"
+    },
+    {
+      "examId": "exam_5b_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5B)",
+      "subjectId": "sbj_mat",
+      "subjectName": "Matematika",
+      "classIds": [
+        "cls_5b"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 90,
+      "questionIds": [
+        "q_mat_1",
+        "q_mat_2",
+        "q_mat_3"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "MAT5B"
+    },
+    {
+      "examId": "exam_6a_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "subjectId": "sbj_ipas",
+      "subjectName": "Ilmu Pengetahuan Alam & Sosial (IPAS)",
+      "classIds": [
+        "cls_6a"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 60,
+      "questionIds": [
+        "q_ipas_1",
+        "q_ipas_2",
+        "q_ipas_3",
+        "q_ipas_4",
+        "q_ipas_5"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "XAV6A"
+    },
+    {
+      "examId": "exam_6b_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6B)",
+      "subjectId": "sbj_ipas",
+      "subjectName": "Ilmu Pengetahuan Alam & Sosial (IPAS)",
+      "classIds": [
+        "cls_6b"
+      ],
+      "startTime": "2026-11-04T22:47:38.018Z",
+      "endTime": "2026-11-11T22:47:38.018Z",
+      "duration": 60,
+      "questionIds": [
+        "q_ipas_1",
+        "q_ipas_2",
+        "q_ipas_3",
+        "q_ipas_4",
+        "q_ipas_5"
+      ],
+      "totalWeight": 100,
+      "status": "active",
+      "createdBy": "usr_admin_1",
+      "token": "XAV6B"
+    }
+  ],
+  "examSessions": [
+    {
+      "sessionId": "ses_1793833844503_s7qh",
+      "examId": "exam_6a_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "studentId": "usr_siswa_starter",
+      "studentName": "Michael Fransisco de Lima (Kelas 6A)",
+      "studentNis": "siswa",
+      "startedAt": "2026-11-04T23:10:44.503Z",
+      "status": "submitted",
+      "violationCount": 0,
+      "lastActiveAt": "2026-11-04T23:10:51.240Z",
+      "submittedAt": "2026-11-04T23:10:56.879Z"
+    }
+  ],
+  "answers": [
+    {
+      "answerId": "ans_1793833851240_yywc",
+      "sessionId": "ses_1793833844503_s7qh",
+      "questionId": "q_ipas_1",
+      "answer": "opt_2",
+      "flagged": false,
+      "savedAt": "2026-11-04T23:10:51.240Z"
+    }
+  ],
+  "examLogs": [],
+  "results": [
+    {
+      "resultId": "res_seed_std_1a_1",
+      "sessionId": "ses_seed_std_1a_1",
+      "examId": "exam_1a_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1A)",
+      "studentId": "std_1a_1",
+      "studentName": "Samuel Ferdinand Tahalele",
+      "studentNis": "24250101",
+      "className": "Kelas I-A",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_1a_2",
+      "sessionId": "ses_seed_std_1a_2",
+      "examId": "exam_1a_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1A)",
+      "studentId": "std_1a_2",
+      "studentName": "Clarissa Aurelia Manuhutu",
+      "studentNis": "24250102",
+      "className": "Kelas I-A",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_1a_3",
+      "sessionId": "ses_seed_std_1a_3",
+      "examId": "exam_1a_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1A)",
+      "studentId": "std_1a_3",
+      "studentName": "Bryan Rafael Latuheru",
+      "studentNis": "24250103",
+      "className": "Kelas I-A",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_1a_4",
+      "sessionId": "ses_seed_std_1a_4",
+      "examId": "exam_1a_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1A)",
+      "studentId": "std_1a_4",
+      "studentName": "Grace Natalia Pattiasina",
+      "studentNis": "24250104",
+      "className": "Kelas I-A",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_1b_1",
+      "sessionId": "ses_seed_std_1b_1",
+      "examId": "exam_1b_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1B)",
+      "studentId": "std_1b_1",
+      "studentName": "Christian Immanuel Huwae",
+      "studentNis": "24250105",
+      "className": "Kelas I-B",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_1b_2",
+      "sessionId": "ses_seed_std_1b_2",
+      "examId": "exam_1b_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1B)",
+      "studentId": "std_1b_2",
+      "studentName": "Angelique Priscillia Tupamahu",
+      "studentNis": "24250106",
+      "className": "Kelas I-B",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_1b_3",
+      "sessionId": "ses_seed_std_1b_3",
+      "examId": "exam_1b_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1B)",
+      "studentId": "std_1b_3",
+      "studentName": "Kevin Jonathan Wattimena",
+      "studentNis": "24250107",
+      "className": "Kelas I-B",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_1b_4",
+      "sessionId": "ses_seed_std_1b_4",
+      "examId": "exam_1b_pak",
+      "examName": "Penilaian Harian Tematik - Agama Katolik (Kelas 1B)",
+      "studentId": "std_1b_4",
+      "studentName": "Felicia Putri Siahaya",
+      "studentNis": "24250108",
+      "className": "Kelas I-B",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_2a_1",
+      "sessionId": "ses_seed_std_2a_1",
+      "examId": "exam_2a_bin",
+      "examName": "Penilaian Tengah Semester - B. Indonesia (Kelas 2A)",
+      "studentId": "std_2a_1",
+      "studentName": "Andreas Bintang de Fretes",
+      "studentNis": "23240201",
+      "className": "Kelas II-A",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_2a_2",
+      "sessionId": "ses_seed_std_2a_2",
+      "examId": "exam_2a_bin",
+      "examName": "Penilaian Tengah Semester - B. Indonesia (Kelas 2A)",
+      "studentId": "std_2a_2",
+      "studentName": "Stephanie Michelle Silooy",
+      "studentNis": "23240202",
+      "className": "Kelas II-A",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_2a_3",
+      "sessionId": "ses_seed_std_2a_3",
+      "examId": "exam_2a_bin",
+      "examName": "Penilaian Tengah Semester - B. Indonesia (Kelas 2A)",
+      "studentId": "std_2a_3",
+      "studentName": "Matthew Nicholas Pariela",
+      "studentNis": "23240203",
+      "className": "Kelas II-A",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_2a_4",
+      "sessionId": "ses_seed_std_2a_4",
+      "examId": "exam_2a_bin",
+      "examName": "Penilaian Tengah Semester - B. Indonesia (Kelas 2A)",
+      "studentId": "std_2a_4",
+      "studentName": "Jessica Florencia Matitaputty",
+      "studentNis": "23240204",
+      "className": "Kelas II-A",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_2b_1",
+      "sessionId": "ses_seed_std_2b_1",
+      "examId": "exam_2b_bin",
+      "examName": "Penilaian Tengah Semester - B. Indonesia (Kelas 2B)",
+      "studentId": "std_2b_1",
+      "studentName": "Gabriel Joseph Leatemia",
+      "studentNis": "23240205",
+      "className": "Kelas II-B",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_2b_2",
+      "sessionId": "ses_seed_std_2b_2",
+      "examId": "exam_2b_bin",
+      "examName": "Penilaian Tengah Semester - B. Indonesia (Kelas 2B)",
+      "studentId": "std_2b_2",
+      "studentName": "Michelle Amanda Louhenapessy",
+      "studentNis": "23240206",
+      "className": "Kelas II-B",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_2b_3",
+      "sessionId": "ses_seed_std_2b_3",
+      "examId": "exam_2b_bin",
+      "examName": "Penilaian Tengah Semester - B. Indonesia (Kelas 2B)",
+      "studentId": "std_2b_3",
+      "studentName": "Jeremy Alexander Sahertian",
+      "studentNis": "23240207",
+      "className": "Kelas II-B",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_2b_4",
+      "sessionId": "ses_seed_std_2b_4",
+      "examId": "exam_2b_bin",
+      "examName": "Penilaian Tengah Semester - B. Indonesia (Kelas 2B)",
+      "studentId": "std_2b_4",
+      "studentName": "Vanessa Caroline Hitipeuw",
+      "studentNis": "23240208",
+      "className": "Kelas II-B",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_3a_1",
+      "sessionId": "ses_seed_std_3a_1",
+      "examId": "exam_3a_mat",
+      "examName": "Penilaian Harian - Matematika (Kelas 3A)",
+      "studentId": "std_3a_1",
+      "studentName": "Nathanael Richard Maruanaya",
+      "studentNis": "22230301",
+      "className": "Kelas III-A",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_3a_2",
+      "sessionId": "ses_seed_std_3a_2",
+      "examId": "exam_3a_mat",
+      "examName": "Penilaian Harian - Matematika (Kelas 3A)",
+      "studentId": "std_3a_2",
+      "studentName": "Catherine Beatrice Lawalata",
+      "studentNis": "22230302",
+      "className": "Kelas III-A",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_3a_3",
+      "sessionId": "ses_seed_std_3a_3",
+      "examId": "exam_3a_mat",
+      "examName": "Penilaian Harian - Matematika (Kelas 3A)",
+      "studentId": "std_3a_3",
+      "studentName": "Christian Geraldo Pelupessy",
+      "studentNis": "22230303",
+      "className": "Kelas III-A",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_3a_4",
+      "sessionId": "ses_seed_std_3a_4",
+      "examId": "exam_3a_mat",
+      "examName": "Penilaian Harian - Matematika (Kelas 3A)",
+      "studentId": "std_3a_4",
+      "studentName": "Olivia Grace Pentury",
+      "studentNis": "22230304",
+      "className": "Kelas III-A",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_3b_1",
+      "sessionId": "ses_seed_std_3b_1",
+      "examId": "exam_3b_mat",
+      "examName": "Penilaian Harian - Matematika (Kelas 3B)",
+      "studentId": "std_3b_1",
+      "studentName": "Samuel Christian Mailoa",
+      "studentNis": "22230305",
+      "className": "Kelas III-B",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_3b_2",
+      "sessionId": "ses_seed_std_3b_2",
+      "examId": "exam_3b_mat",
+      "examName": "Penilaian Harian - Matematika (Kelas 3B)",
+      "studentId": "std_3b_2",
+      "studentName": "Gabriella Maria Sohilait",
+      "studentNis": "22230306",
+      "className": "Kelas III-B",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_3b_3",
+      "sessionId": "ses_seed_std_3b_3",
+      "examId": "exam_3b_mat",
+      "examName": "Penilaian Harian - Matematika (Kelas 3B)",
+      "studentId": "std_3b_3",
+      "studentName": "Timothy Andrew Tehupeiory",
+      "studentNis": "22230307",
+      "className": "Kelas III-B",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_3b_4",
+      "sessionId": "ses_seed_std_3b_4",
+      "examId": "exam_3b_mat",
+      "examName": "Penilaian Harian - Matematika (Kelas 3B)",
+      "studentId": "std_3b_4",
+      "studentName": "Patricia Angeline Risambessy",
+      "studentNis": "22230308",
+      "className": "Kelas III-B",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_4a_1",
+      "sessionId": "ses_seed_std_4a_1",
+      "examId": "exam_4a_bin",
+      "examName": "Asesmen Formatif - Bahasa Indonesia (Kelas 4A)",
+      "studentId": "std_4a_1",
+      "studentName": "Yohanes Gabriel Renyaan",
+      "studentNis": "21220401",
+      "className": "Kelas IV-A",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_4a_2",
+      "sessionId": "ses_seed_std_4a_2",
+      "examId": "exam_4a_bin",
+      "examName": "Asesmen Formatif - Bahasa Indonesia (Kelas 4A)",
+      "studentId": "std_4a_2",
+      "studentName": "Maria Christina Latuconsina",
+      "studentNis": "21220402",
+      "className": "Kelas IV-A",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_4a_3",
+      "sessionId": "ses_seed_std_4a_3",
+      "examId": "exam_4a_bin",
+      "examName": "Asesmen Formatif - Bahasa Indonesia (Kelas 4A)",
+      "studentId": "std_4a_3",
+      "studentName": "Michael Christian de Lima",
+      "studentNis": "21220403",
+      "className": "Kelas IV-A",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_4a_4",
+      "sessionId": "ses_seed_std_4a_4",
+      "examId": "exam_4a_bin",
+      "examName": "Asesmen Formatif - Bahasa Indonesia (Kelas 4A)",
+      "studentId": "std_4a_4",
+      "studentName": "Kezia Angelica Wattimena",
+      "studentNis": "21220404",
+      "className": "Kelas IV-A",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_4b_1",
+      "sessionId": "ses_seed_std_4b_1",
+      "examId": "exam_4b_bin",
+      "examName": "Asesmen Formatif - Bahasa Indonesia (Kelas 4B)",
+      "studentId": "std_4b_1",
+      "studentName": "Rafael Bintang Matitaputty",
+      "studentNis": "21220405",
+      "className": "Kelas IV-B",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_4b_2",
+      "sessionId": "ses_seed_std_4b_2",
+      "examId": "exam_4b_bin",
+      "examName": "Asesmen Formatif - Bahasa Indonesia (Kelas 4B)",
+      "studentId": "std_4b_2",
+      "studentName": "Theresia Aurelia Louhenapessy",
+      "studentNis": "21220406",
+      "className": "Kelas IV-B",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_4b_3",
+      "sessionId": "ses_seed_std_4b_3",
+      "examId": "exam_4b_bin",
+      "examName": "Asesmen Formatif - Bahasa Indonesia (Kelas 4B)",
+      "studentId": "std_4b_3",
+      "studentName": "Fransiskus Xaverius Tupamahu",
+      "studentNis": "21220407",
+      "className": "Kelas IV-B",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_4b_4",
+      "sessionId": "ses_seed_std_4b_4",
+      "examId": "exam_4b_bin",
+      "examName": "Asesmen Formatif - Bahasa Indonesia (Kelas 4B)",
+      "studentId": "std_4b_4",
+      "studentName": "Angela Merici Pattiradjawane",
+      "studentNis": "21220408",
+      "className": "Kelas IV-B",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_5a_1",
+      "sessionId": "ses_seed_std_5a_1",
+      "examId": "exam_5a_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5A)",
+      "studentId": "std_5a_1",
+      "studentName": "Christian Alexander Siahaya",
+      "studentNis": "20210501",
+      "className": "Kelas V-A",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_5a_2",
+      "sessionId": "ses_seed_std_5a_2",
+      "examId": "exam_5a_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5A)",
+      "studentId": "std_5a_2",
+      "studentName": "Elisabeth Gabriella Pariela",
+      "studentNis": "20210502",
+      "className": "Kelas V-A",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_5a_3",
+      "sessionId": "ses_seed_std_5a_3",
+      "examId": "exam_5a_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5A)",
+      "studentId": "std_5a_3",
+      "studentName": "Nicholas Bryan Huwae",
+      "studentNis": "20210503",
+      "className": "Kelas V-A",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_5a_4",
+      "sessionId": "ses_seed_std_5a_4",
+      "examId": "exam_5a_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5A)",
+      "studentId": "std_5a_4",
+      "studentName": "Jessica Michelle Tahalele",
+      "studentNis": "20210504",
+      "className": "Kelas V-A",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_5b_1",
+      "sessionId": "ses_seed_std_5b_1",
+      "examId": "exam_5b_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5B)",
+      "studentId": "std_5b_1",
+      "studentName": "Gabriel Richard Gaspersz",
+      "studentNis": "20210505",
+      "className": "Kelas V-B",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_5b_2",
+      "sessionId": "ses_seed_std_5b_2",
+      "examId": "exam_5b_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5B)",
+      "studentId": "std_5b_2",
+      "studentName": "Stephanie Priscillia Noya",
+      "studentNis": "20210506",
+      "className": "Kelas V-B",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_5b_3",
+      "sessionId": "ses_seed_std_5b_3",
+      "examId": "exam_5b_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5B)",
+      "studentId": "std_5b_3",
+      "studentName": "Matthew Ferdinand Pelupessy",
+      "studentNis": "20210507",
+      "className": "Kelas V-B",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_5b_4",
+      "sessionId": "ses_seed_std_5b_4",
+      "examId": "exam_5b_mat",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5B)",
+      "studentId": "std_5b_4",
+      "studentName": "Vanessa Beatrice Soukotta",
+      "studentNis": "20210508",
+      "className": "Kelas V-B",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_usr_siswa_starter",
+      "sessionId": "ses_seed_usr_siswa_starter",
+      "examId": "exam_6a_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "studentId": "usr_siswa_starter",
+      "studentName": "Michael Fransisco de Lima",
+      "studentNis": "19200601",
+      "className": "Kelas VI-A",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6a_2",
+      "sessionId": "ses_seed_std_6a_2",
+      "examId": "exam_6a_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "studentId": "std_6a_2",
+      "studentName": "Maria Theresia Renyaan",
+      "studentNis": "19200602",
+      "className": "Kelas VI-A",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6a_3",
+      "sessionId": "ses_seed_std_6a_3",
+      "examId": "exam_6a_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "studentId": "std_6a_3",
+      "studentName": "Yohanes Baptista Latuconsina",
+      "studentNis": "19200603",
+      "className": "Kelas VI-A",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6a_4",
+      "sessionId": "ses_seed_std_6a_4",
+      "examId": "exam_6a_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "studentId": "std_6a_4",
+      "studentName": "Kezia Gabriella Wattimena",
+      "studentNis": "19200604",
+      "className": "Kelas VI-A",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6a_5",
+      "sessionId": "ses_seed_std_6a_5",
+      "examId": "exam_6a_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "studentId": "std_6a_5",
+      "studentName": "Gabriel Alexander Silooy",
+      "studentNis": "19200605",
+      "className": "Kelas VI-A",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6b_1",
+      "sessionId": "ses_seed_std_6b_1",
+      "examId": "exam_6b_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6B)",
+      "studentId": "std_6b_1",
+      "studentName": "Daniel Christopher Pattiasina",
+      "studentNis": "19200606",
+      "className": "Kelas VI-B",
+      "totalScore": 95,
+      "maximumScore": 100,
+      "finalScore": 95,
+      "correctAnswersCount": 5,
+      "wrongAnswersCount": 0,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6b_2",
+      "sessionId": "ses_seed_std_6b_2",
+      "examId": "exam_6b_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6B)",
+      "studentId": "std_6b_2",
+      "studentName": "Michelle Aurelia de Fretes",
+      "studentNis": "19200607",
+      "className": "Kelas VI-B",
+      "totalScore": 88,
+      "maximumScore": 100,
+      "finalScore": 88,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6b_3",
+      "sessionId": "ses_seed_std_6b_3",
+      "examId": "exam_6b_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6B)",
+      "studentId": "std_6b_3",
+      "studentName": "Christian Bintang Lawalata",
+      "studentNis": "19200608",
+      "className": "Kelas VI-B",
+      "totalScore": 76,
+      "maximumScore": 100,
+      "finalScore": 76,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6b_4",
+      "sessionId": "ses_seed_std_6b_4",
+      "examId": "exam_6b_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6B)",
+      "studentId": "std_6b_4",
+      "studentName": "Angelique Caroline Hitipeuw",
+      "studentNis": "19200609",
+      "className": "Kelas VI-B",
+      "totalScore": 64,
+      "maximumScore": 100,
+      "finalScore": 64,
+      "correctAnswersCount": 3,
+      "wrongAnswersCount": 2,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    },
+    {
+      "resultId": "res_seed_std_6b_5",
+      "sessionId": "ses_seed_std_6b_5",
+      "examId": "exam_6b_ipas",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6B)",
+      "studentId": "std_6b_5",
+      "studentName": "Rafael Nicholas Maruanaya",
+      "studentNis": "19200610",
+      "className": "Kelas VI-B",
+      "totalScore": 82,
+      "maximumScore": 100,
+      "finalScore": 82,
+      "correctAnswersCount": 4,
+      "wrongAnswersCount": 1,
+      "gradingStatus": "graded",
+      "gradedAt": "2026-11-06T06:37:00.907Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "logId": "audit_1793947028680_fmdo9",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-06T06:37:08.680Z"
+    },
+    {
+      "logId": "audit_1793947024840_y0z90",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-06T06:37:04.840Z"
+    },
+    {
+      "logId": "audit_1793833856879_hmo03",
+      "actorId": "usr_siswa_starter",
+      "actorName": "Michael Fransisco de Lima (Kelas 6A)",
+      "actorRole": "siswa",
+      "action": "SUBMIT_EXAM",
+      "target": "RESULTS",
+      "details": "Siswa Michael Fransisco de Lima (Kelas 6A) menyelesaikan ujian Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A) dengan Nilai Akhir: 20",
+      "timestamp": "2026-11-04T23:10:56.879Z"
+    },
+    {
+      "logId": "audit_1793833844503_x9vqu",
+      "actorId": "usr_siswa_starter",
+      "actorName": "Michael Fransisco de Lima (Kelas 6A)",
+      "actorRole": "siswa",
+      "action": "START_EXAM",
+      "target": "EXAM_SESSION",
+      "details": "Siswa Michael Fransisco de Lima (Kelas 6A) memulai sesi ujian: Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "timestamp": "2026-11-04T23:10:44.503Z"
+    },
+    {
+      "logId": "audit_1793833839317_hvyea",
+      "actorId": "usr_siswa_starter",
+      "actorName": "Michael Fransisco de Lima (Kelas 6A)",
+      "actorRole": "siswa",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Michael Fransisco de Lima (Kelas 6A) (siswa) berhasil masuk sebagai SISWA",
+      "timestamp": "2026-11-04T23:10:39.317Z"
+    },
+    {
+      "logId": "audit_1793833649281_s4kgc",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-04T23:07:29.281Z"
+    },
+    {
+      "logId": "audit_1793833278904_qib1w",
+      "actorId": "usr_siswa_starter",
+      "actorName": "Michael Fransisco de Lima (Kelas 6A)",
+      "actorRole": "siswa",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Michael Fransisco de Lima (Kelas 6A) (siswa) berhasil masuk sebagai SISWA",
+      "timestamp": "2026-11-04T23:01:18.904Z"
+    },
+    {
+      "logId": "audit_1793833274302_8wmhv",
+      "actorId": "usr_pengawas_starter",
+      "actorName": "Yohanes Lerebulan, S.Pd. (Pengawas Ruang)",
+      "actorRole": "pengawas",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Yohanes Lerebulan, S.Pd. (Pengawas Ruang) (pengawas) berhasil masuk sebagai PENGAWAS",
+      "timestamp": "2026-11-04T23:01:14.302Z"
+    },
+    {
+      "logId": "audit_1793833269483_bz1p7",
+      "actorId": "usr_guru_starter",
+      "actorName": "Dra. Maria Regina, S.Pd. (Dewan Guru)",
+      "actorRole": "guru",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Dra. Maria Regina, S.Pd. (Dewan Guru) (guru) berhasil masuk sebagai GURU",
+      "timestamp": "2026-11-04T23:01:09.483Z"
+    },
+    {
+      "logId": "audit_1793833264756_kvr8q",
+      "actorId": "usr_guru_starter",
+      "actorName": "Dra. Maria Regina, S.Pd. (Dewan Guru)",
+      "actorRole": "guru",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Dra. Maria Regina, S.Pd. (Dewan Guru) (guru) berhasil masuk sebagai GURU",
+      "timestamp": "2026-11-04T23:01:04.756Z"
+    },
+    {
+      "logId": "audit_1793832503444_78sho",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-04T22:48:23.444Z"
+    },
+    {
+      "logId": "audit_1793831443864_ku9oy",
+      "actorId": "system",
+      "actorName": "Administrator Sistem",
+      "actorRole": "admin",
+      "action": "CLEAN_DATA",
+      "target": "DATABASE",
+      "details": "Membersihkan data contoh guru, siswa, pengawas, dan soal untuk penginputan data riil sekolah",
+      "timestamp": "2026-11-04T22:30:43.864Z"
+    },
+    {
+      "logId": "audit_1793774391731_05tgq",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "DELETE_EXAM",
+      "target": "EXAMS",
+      "details": "Menghapus jadwal ujian: Tes Sumatif Mandiri - Matematika",
+      "timestamp": "2026-11-04T06:39:51.731Z"
+    },
+    {
+      "logId": "audit_1793774391710_qadqg",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-04T06:39:51.710Z"
+    },
+    {
+      "logId": "audit_1793774380852_qovkj",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "IMPORT_EXAMS",
+      "target": "EXAMS",
+      "details": "Mengimpor 1 jadwal ujian dari template manual",
+      "timestamp": "2026-11-04T06:39:40.852Z"
+    },
+    {
+      "logId": "audit_1793774380829_hgc3n",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-04T06:39:40.829Z"
+    },
+    {
+      "logId": "audit_1793774355795_8vxgx",
+      "actorId": "system",
+      "actorName": "Administrator Sistem",
+      "actorRole": "admin",
+      "action": "CLEAN_DATA",
+      "target": "DATABASE",
+      "details": "Membersihkan data contoh guru, siswa, pengawas, dan soal untuk penginputan data riil sekolah",
+      "timestamp": "2026-11-04T06:39:15.795Z"
+    },
+    {
+      "logId": "audit_1793774089050_ou9y6",
+      "actorId": "system",
+      "actorName": "Administrator Sistem",
+      "actorRole": "admin",
+      "action": "CLEAN_DATA",
+      "target": "DATABASE",
+      "details": "Membersihkan data contoh guru, siswa, pengawas, dan soal untuk penginputan data riil sekolah",
+      "timestamp": "2026-11-04T06:34:49.050Z"
+    },
+    {
+      "logId": "audit_1793772051828_vscri",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-04T06:00:51.829Z"
+    },
+    {
+      "logId": "audit_1793771993513_rjskj",
+      "actorId": "system",
+      "actorName": "Administrator Sistem",
+      "actorRole": "admin",
+      "action": "CLEAN_DATA",
+      "target": "DATABASE",
+      "details": "Membersihkan data contoh guru, siswa, pengawas, dan soal untuk penginputan data riil sekolah",
+      "timestamp": "2026-11-04T05:59:53.513Z"
+    },
+    {
+      "logId": "audit_1793771564002_rfxsu",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGOUT",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) keluar dari sistem",
+      "timestamp": "2026-11-04T05:52:44.002Z"
+    },
+    {
+      "logId": "audit_1793771554196_5spoi",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "UPDATE_USER",
+      "target": "USERS",
+      "details": "Admin memperbarui profil guru_johanes",
+      "timestamp": "2026-11-04T05:52:34.196Z"
+    },
+    {
+      "logId": "audit_1793771552341_a1d01",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "UPDATE_USER",
+      "target": "USERS",
+      "details": "Admin memperbarui profil guru_maria",
+      "timestamp": "2026-11-04T05:52:32.341Z"
+    },
+    {
+      "logId": "audit_1793771480685_g1p3p",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-04T05:51:20.685Z"
+    },
+    {
+      "logId": "audit_1793771473952_0u6vz",
+      "actorId": "usr_guru_1",
+      "actorName": "Ibu Maria Fransisca, S.Pd.",
+      "actorRole": "guru",
+      "action": "LOGOUT",
+      "target": "AUTH",
+      "details": "Pengguna Ibu Maria Fransisca, S.Pd. keluar dari sistem",
+      "timestamp": "2026-11-04T05:51:13.952Z"
+    },
+    {
+      "logId": "audit_1793771469407_89kvy",
+      "actorId": "usr_guru_1",
+      "actorName": "Ibu Maria Fransisca, S.Pd.",
+      "actorRole": "guru",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Ibu Maria Fransisca, S.Pd. (guru_maria) berhasil masuk sebagai GURU",
+      "timestamp": "2026-11-04T05:51:09.407Z"
+    },
+    {
+      "logId": "audit_1793771462961_hvkxz",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGOUT",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) keluar dari sistem",
+      "timestamp": "2026-11-04T05:51:02.961Z"
+    },
+    {
+      "logId": "audit_1793771449981_kzo71",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-04T05:50:49.981Z"
+    },
+    {
+      "logId": "audit_1793770443878_92bmb",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGOUT",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) keluar dari sistem",
+      "timestamp": "2026-11-04T05:34:03.878Z"
+    },
+    {
+      "logId": "audit_1793770385949_tna9s",
+      "actorId": "usr_admin_1",
+      "actorName": "Administrator Utama (SD Xaverius A1)",
+      "actorRole": "admin",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Administrator Utama (SD Xaverius A1) (admin) berhasil masuk sebagai ADMIN",
+      "timestamp": "2026-11-04T05:33:05.949Z"
+    },
+    {
+      "logId": "audit_1793769771637_4p2ur",
+      "actorId": "usr_guru_1",
+      "actorName": "Ibu Maria Fransisca, S.Pd.",
+      "actorRole": "guru",
+      "action": "LOGOUT",
+      "target": "AUTH",
+      "details": "Pengguna Ibu Maria Fransisca, S.Pd. keluar dari sistem",
+      "timestamp": "2026-11-04T05:22:51.637Z"
+    },
+    {
+      "logId": "audit_1793769674867_cf07y",
+      "actorId": "usr_guru_1",
+      "actorName": "Ibu Maria Fransisca, S.Pd.",
+      "actorRole": "guru",
+      "action": "LOGIN",
+      "target": "AUTH",
+      "details": "Pengguna Ibu Maria Fransisca, S.Pd. (guru_maria) berhasil masuk sebagai GURU",
+      "timestamp": "2026-11-04T05:21:14.867Z"
+    },
+    {
+      "logId": "audit_1793769399563_b85m7",
+      "actorId": "system",
+      "actorName": "Sistem Inisialisasi",
+      "actorRole": "system",
+      "action": "BOOTSTRAP",
+      "target": "DATABASE",
+      "details": "Inisialisasi Data Master SD XAVERIUS A1 AMBON",
+      "timestamp": "2026-11-04T05:16:39.563Z"
+    }
+  ],
+  "sessions": {
+    "xav_e7cb5a9987c7f2a714836ac0fbb1b6c03389596ff86a421948a6da48cb9797ba": {
+      "userId": "usr_admin_1",
+      "role": "admin",
+      "expiresAt": 1793858451828
+    },
+    "xav_a05aaf616e7f7cb7e5ef23fe99206e153227c3cb9c2c6e1893fd20bedbe0120c": {
+      "userId": "usr_admin_1",
+      "role": "admin",
+      "expiresAt": 1793860780829
+    },
+    "xav_29b172974adb65cf474bad9972547e43f62908cec625e86b758dd55ee1e8b20f": {
+      "userId": "usr_admin_1",
+      "role": "admin",
+      "expiresAt": 1793860791710
+    },
+    "xav_483d30013b62c21d54f1d634ef02e94b691515fda9ac3c4cc6bfc51740718f44": {
+      "userId": "usr_admin_1",
+      "role": "admin",
+      "expiresAt": 1793918903444
+    },
+    "xav_1952df8adfffa53085a9bf5a938575dd906fcddd512831443b0e11c55e2ecbd9": {
+      "userId": "usr_guru_starter",
+      "role": "guru",
+      "expiresAt": 1793919664756
+    },
+    "xav_77130c33e3ae3790d3e8c6c7ed913d971b5ce3ee168bb742f2df89e418c9c384": {
+      "userId": "usr_guru_starter",
+      "role": "guru",
+      "expiresAt": 1793919669483
+    },
+    "xav_774fecfa6102cc731a307ec51e89de446a86896e260a1594d32502bcd15096dd": {
+      "userId": "usr_pengawas_starter",
+      "role": "pengawas",
+      "expiresAt": 1793919674302
+    },
+    "xav_8780b95292eef61eef54aec50edb0caa95e7cbb1a631b93ddc9494c38d08188a": {
+      "userId": "usr_siswa_starter",
+      "role": "siswa",
+      "expiresAt": 1793919678904
+    },
+    "xav_233a8981f091d4353a45c11d8472d1b1895c43839410231e3d9c2112b6f8d526": {
+      "userId": "usr_admin_1",
+      "role": "admin",
+      "expiresAt": 1793920049281
+    },
+    "xav_85770fb767279643092bb7ff27b9491e459174c12c6a4c3760fab5d0f539bb6a": {
+      "userId": "usr_siswa_starter",
+      "role": "siswa",
+      "expiresAt": 1793920239317
+    },
+    "xav_94b2bc7dab0e99dd08af3944110bd1a40bcffd74e0ea78b2847735fe9e4cecb9": {
+      "userId": "usr_admin_1",
+      "role": "admin",
+      "expiresAt": 1794033424840
+    },
+    "xav_fa79f63d1cd42cafd6f38302784db48f60608571e2fe098abbde3347436ce10c": {
+      "userId": "usr_admin_1",
+      "role": "admin",
+      "expiresAt": 1794033428680
+    }
+  },
+  "proctorAssignments": [
+    {
+      "assignmentId": "asg_1",
+      "proctorName": "Dra. Maria Regina, S.Pd.",
+      "nip": "197003151995122001",
+      "roomName": "Ruang Lab CBT 1",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6A)",
+      "classIds": [
+        "cls_6a"
+      ],
+      "sessionTime": "08:00 - 09:30 WIT",
+      "contact": "0812-4455-6677",
+      "notes": "Penanggung Jawab Ruang Lab 1"
+    },
+    {
+      "assignmentId": "asg_2",
+      "proctorName": "Yohanes Lerebulan, S.Pd.",
+      "nip": "197805122003121004",
+      "roomName": "Ruang Lab CBT 2",
+      "examName": "Asesmen Sumatif Akhir Jenjang - IPAS (Kelas 6B)",
+      "classIds": [
+        "cls_6b"
+      ],
+      "sessionTime": "08:00 - 09:30 WIT",
+      "contact": "0813-2233-4455",
+      "notes": "Pengawas Ruang Lab 2"
+    },
+    {
+      "assignmentId": "asg_3",
+      "proctorName": "Fransiscus Renyaan, S.Pd.",
+      "nip": "198207192008011009",
+      "roomName": "Ruang Kelas 5A",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5A)",
+      "classIds": [
+        "cls_5a"
+      ],
+      "sessionTime": "10:00 - 11:30 WIT",
+      "contact": "0852-8899-1122",
+      "notes": "Pengawas Ruang Kelas 5A"
+    },
+    {
+      "assignmentId": "asg_4",
+      "proctorName": "Petrus Titaley, S.Pd.",
+      "nip": "198501042010011015",
+      "roomName": "Ruang Kelas 5B",
+      "examName": "Asesmen Sumatif Semester - Matematika (Kelas 5B)",
+      "classIds": [
+        "cls_5b"
+      ],
+      "sessionTime": "10:00 - 11:30 WIT",
+      "contact": "0813-9988-7766",
+      "notes": "Pengawas Ruang Kelas 5B"
+    }
+  ]
+}

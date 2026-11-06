@@ -1,0 +1,185 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Global Safety Net: Default-deny all undefined paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // Helper functions
+    function isValidId(id) {
+      return id is string && id.size() > 0 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isBootstrappedAdmin() {
+      return isSignedIn() && (
+        (request.auth.token.email == 'richomasela16@gmail.com' && request.auth.token.email_verified == true) ||
+        (request.auth.token.role == 'admin')
+      );
+    }
+
+    function isAdmin() {
+      return isSignedIn() && (
+        isBootstrappedAdmin() ||
+        exists(/databases/$(database)/documents/admins/$(request.auth.uid)) ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'admin')
+      );
+    }
+
+    function isTeacher() {
+      return isSignedIn() && (
+        isAdmin() ||
+        (request.auth.token.role == 'guru') ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'guru')
+      );
+    }
+
+    function isProctor() {
+      return isSignedIn() && (
+        isAdmin() ||
+        (request.auth.token.role == 'pengawas') ||
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)) &&
+         get(/databases/$(database)/documents/users/$(request.auth.uid)).data.role == 'pengawas')
+      );
+    }
+
+    // Users collection
+    match /users/{userId} {
+      allow get: if isSignedIn() && (request.auth.uid == userId || isAdmin() || isTeacher() || isProctor());
+      allow list: if isAdmin();
+      allow create: if isAdmin() || (isSignedIn() && request.auth.uid == userId && incoming().role != 'admin');
+      allow update: if isAdmin() || (
+        isSignedIn() && request.auth.uid == userId &&
+        incoming().diff(existing()).affectedKeys().hasOnly(['fullName', 'updatedAt', 'avatar']) &&
+        incoming().role == existing().role
+      );
+      allow delete: if isAdmin();
+    }
+
+    // Admins marker collection
+    match /admins/{adminId} {
+      allow read: if isSignedIn();
+      allow write: if isBootstrappedAdmin();
+    }
+
+    // Students master data
+    match /students/{studentId} {
+      allow get: if isSignedIn();
+      allow list: if isSignedIn();
+      allow write: if isAdmin() || isTeacher();
+    }
+
+    // Teachers master data
+    match /teachers/{teacherId} {
+      allow get: if isSignedIn();
+      allow list: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // Classes master data
+    match /classes/{classId} {
+      allow get: if isSignedIn();
+      allow list: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // Subjects master data
+    match /subjects/{subjectId} {
+      allow get: if isSignedIn();
+      allow list: if isSignedIn();
+      allow write: if isAdmin();
+    }
+
+    // School Settings
+    match /schoolSettings/{settingId} {
+      allow get: if true;
+      allow list: if true;
+      allow write: if isAdmin();
+    }
+
+    // Question Banks: Answer keys protected; only teachers and admins can read/write directly
+    match /questionBanks/{questionId} {
+      allow get: if isTeacher() || isAdmin();
+      allow list: if isTeacher() || isAdmin();
+      allow create, update, delete: if isTeacher() || isAdmin();
+    }
+
+    // Exams
+    match /exams/{examId} {
+      allow get: if isSignedIn();
+      allow list: if isSignedIn();
+      allow create, update, delete: if isTeacher() || isAdmin();
+    }
+
+    // Exam Sessions: Students can access their own; Teachers, Proctors, Admins can view
+    match /examSessions/{sessionId} {
+      allow get: if isSignedIn() && (
+        resource.data.studentId == request.auth.uid ||
+        isAdmin() || isTeacher() || isProctor()
+      );
+      allow list: if isSignedIn();
+      allow create: if isSignedIn() && (
+        incoming().studentId == request.auth.uid || isAdmin() || isTeacher()
+      );
+      allow update: if isSignedIn() && (
+        isAdmin() || isTeacher() || isProctor() ||
+        (resource.data.studentId == request.auth.uid &&
+         incoming().diff(existing()).affectedKeys().hasOnly(['status', 'submittedAt', 'updatedAt', 'lastActiveAt']))
+      );
+      allow delete: if isAdmin();
+    }
+
+    // Answers: Students write their own answers; Teachers and Admins can view
+    match /answers/{answerId} {
+      allow get: if isSignedIn();
+      allow list: if isSignedIn();
+      allow create: if isSignedIn();
+      allow update: if isSignedIn();
+      allow delete: if isAdmin();
+    }
+
+    // Exam Logs: Proctoring logs during exam
+    match /examLogs/{logId} {
+      allow get: if isSignedIn();
+      allow list: if isSignedIn() && (isAdmin() || isTeacher() || isProctor());
+      allow create: if isSignedIn();
+      allow update, delete: if isAdmin();
+    }
+
+    // Results: Student scores; only graded by teachers/admin or backend
+    match /results/{resultId} {
+      allow get: if isSignedIn() && (
+        resource.data.studentId == request.auth.uid ||
+        isAdmin() || isTeacher() || isProctor()
+      );
+      allow list: if isSignedIn() && (
+        isAdmin() || isTeacher() || isProctor() ||
+        resource.data.studentId == request.auth.uid
+      );
+      allow write: if isTeacher() || isAdmin();
+    }
+
+    // Audit Logs: System logs viewable by admin only, immutable
+    match /auditLogs/{logId} {
+      allow get: if isAdmin();
+      allow list: if isAdmin();
+      allow create: if isSignedIn();
+      allow update, delete: if false; // Append-only audit trail
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "XAVERIUS EXAM - SD Xaverius A1 Ambon",
+  "description": "Sistem Ujian Online dan Bank Soal Berbasis CBT untuk SD Xaverius A1 Ambon dengan Firebase Authentication dan Cloud Firestore.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
